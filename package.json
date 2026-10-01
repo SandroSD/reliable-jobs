@@ -1,0 +1,19 @@
+{
+    "name": "reliable-jobs",
+    "version": "1.0.0",
+    "description": "Code for the 'Reliable background jobs in Node.js, from zero' series.",
+    "private": true,
+    "type": "module",
+    "scripts": {
+          "build": "tsc -p tsconfig.json",
+          "part01:demo": "tsx src/part01/demo.ts",
+          "part01:test": "vitest run test/part01"
+    },
+    "devDependencies": {
+          "@types/node": "^22.20.4",
+          "tsx": "^4.23.15",
+          "typescript": "^5.9.3",
+          "vitest": "^2.1.9"
+    },
+    "license": "MIT"
+}
